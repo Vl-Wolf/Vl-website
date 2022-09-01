@@ -76,15 +76,15 @@
                 <div class="home_container container grid">
                     <div class="home_content grid">
                         <div class="home_social">
-                            <a href="https://www.linkein.com/" target="_blank" class = "home_social-icon">
+                            <a href="https://www.linkein.com/mwlite/in/vladislav-volkov-961283197" target="_blank" class = "home_social-icon">
                                 <i class="uil uil-linkedin-alt"></i>
                             </a>
 
-                            <a href="https://dribbble.com/" target="_blank" class = "home_social-icon">
+                            <a href="https://vladislavvolkov.itch.io" target="_blank" class = "home_social-icon">
                                 <i class="uil uil-dribbble"></i>
                             </a>
 
-                            <a href="https://github.com/" target="_blank" class = "home_social-icon">
+                            <a href="https://github.com/vl-wolf" target="_blank" class = "home_social-icon">
                                 <i class="uil uil-github-alt"></i>
                             </a>
                         </div>
@@ -102,7 +102,7 @@
                                             165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
                                             129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
                                             -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                                    <image class="home_blob-img" x = '-80' y='-11' href="assets/img/perfil1.png"/>
+                                    <image class="home_blob-img" x = '-80' y='0' href="assets/img/perfil1.png"/>
                                 </g>
                             </svg>
                         </div>
@@ -156,11 +156,11 @@
                             </div>-->
                         </div>
                         
-                        <div class="about_buttons">
-                            <a download="" href="assets/pdf/Vladislav-Cv.pdf" class="button button--flex">
+                        <!--<div class="about_buttons">
+                            <a download="" href="assets/pdf/Vladislav-Cv.pdf" class="button button&#45;&#45;flex">
                                 Download CV<i class="uil uil-download-alt button_icon"></i>
                             </a>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
             </section>
@@ -411,11 +411,11 @@
             </section>
 
             <!--========================== PORTFOLIO =============================-->
-            <section class="portfolio section swiper" id="portfolio">
+            <section class="portfolio section" id="portfolio">
                 <h2 class="section_title">Portfolio</h2>
                 <span class="section_subtitle">Most recent work</span>
                 
-                <div class="portfolio_container container">
+                <div class="portfolio_container container swiper">
                      <div class="swiper-wrapper">
                          <!--========================== PORTFOLIO 1 =============================-->
                          <div class="portfolio_content grid swiper-slide">
@@ -491,34 +491,40 @@
                         </div>
                     </div>
                     
-                    <form action="" class="contact_form grid">
+                    <form action="https://formspree.io/f/xlevdqao" class="contact_form grid" method="post">
                         <div class="contact_inputs grid">
                             <div class="contact_content">
-                                <label class="contact_label">Name</label>
-                                <input type="text" class="contact_input">
+                                <label class="contact_label">Name
+                                    <input name="message" class="contact_input">
+                                </label>
                             </div>
                             
                             <div class="contact_content">
-                                <label class="contact_label">Email</label>
-                                <input type="email" class="contact_input">
+                                <label for="email" class="contact_label">Email
+                                    <input name="Email" id="email" type="email" class="contact_input">
+                                </label>
                             </div>
                         </div>
                         <div class="contact_content">
-                            <label class="contact_label">Project</label>
-                            <input type="text" class="contact_input">
+                            <label class="contact_label">Project
+                                <input name="message" class="contact_input">
+                            </label>
                         </div>
                         <div class="contact_content">
-                            <label class="contact_label">Message</label>
-                            <textarea name="" id="" cols="0" rows="7" class="contact_input"></textarea>
+                            <label class="contact_label">Message
+                                <textarea name="message" id="" cols="0" rows="7" class="contact_input"></textarea>
+                            </label>
+                            
                         </div>
                         
                         <div>
-                            <a href="#" class="button button--flex">
+                            <button class="button button--flex" type="submit">
                                 Send Message
                                 <i class="uil uil-message button_icon"></i>
-                            </a>
+                            </button>
                         </div>
                     </form>
+                    
                 </div>
             </section>
         </main>
@@ -547,15 +553,15 @@
                     </ul>
                     
                     <div class="footer_socials">
-                        <a href="https://vk.com" target="_blank" class="footer_social">
+                        <a href="https://vk.com/bebeuus" target="_blank" class="footer_social">
                             <i class="uil uil-vk"></i>
                         </a>
 
-                        <a href="https://web.telegram.org/k/" target="_blank" class="footer_social">
+                        <a href="https://t.me/VVolkov_Shutnyara" target="_blank" class="footer_social">
                             <i class="uil uil-telegram"></i>
                         </a>
 
-                        <a href="https://www.linkein.com/" target="_blank" class="footer_social">
+                        <a href="https://www.linkein.com/mwlite/in/vladislav-volkov-961283197" target="_blank" class="footer_social">
                             <i class="uil uil-linkedin"></i>
                         </a>
                     </div>
